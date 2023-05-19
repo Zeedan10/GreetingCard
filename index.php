@@ -13,21 +13,19 @@
     </div>
     <div class="container-ucapan">
         <div class="ucapan">
-    
-            <img src="https://img.freepik.com/premium-vector/happy-birthday-lettering-design_251214-110.jpg?size=626&ext=jpg&ga=GA1.1.1579232898.1684222180&semt=ais" alt="">
             
-                <div class="text-kanan">
+            <img class="gambar1" src="https://img.freepik.com/premium-vector/happy-birthday-lettering-design_251214-110.jpg?size=626&ext=jpg&ga=GA1.1.1579232898.1684222180&semt=ais" alt="">
+            
+                <div class="text-kanan1">
                     
-                    <h2>Hai,Congrats yaa...!!! </h2>
-                    <div>
-                        <p>selmat ulang tahun</p>                 
-                    </div>
+                    <h2>Hai,Congrats yaa </h2>
+                    <p>selamat ulang tahun</p> 
                     <h1>To fav people</h1>
                 </div>
     
     
         </div>
-        <label class="label"> lanjut lah masa kaga</label>
+        <label class="label1"> lanjut dongs </label>
         <form action="next.php" method="get">
             <button class="button-style">Lanjut</button>
         </form>

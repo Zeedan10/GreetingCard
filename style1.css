@@ -10,37 +10,139 @@
   }
 @media (min-width:600px)  {
     body {
-      background-color: cyan;
+      background-color:white;
+
+    }
+
+    .gambar1{
+      margin-top: 5rem;
+      width: 21rem;
+    }
+    
+    .label1{
+      display: flex;
+      justify-content: center;
+      margin-top: 20rem;
+      
     }
 
     .button-style{
-      padding-left: 64px;
-      padding-right: 64px;
-      padding: 18px;
-      border-radius: 10px;
+      margin-top:24px;
+      display: flex;
+      justify-content: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      /* border-radius: 10px; */
     }
+
+    .container-ucapan{
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+      
+    }
+
+    .ucapan{
+      display: flex;
+      flex-direction: row;
+      /* width: 24px; */
+      height: 24px;
+      align-items: center;
+    }
+
+    .text-kanan1{
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      margin-top: 18rem;
+    }
+    
+  
+    
+    /* .dino-kanan{
+      display: flex;
+      position: relative;
+      top: 50px;
+    } */
+
+    .isian.nama-dino{
+      display: flex;
+      justify-content: end;
+      /* color: white; */
+    }
+
+
+    .nama-dino{
+        display: flex;
+        text-align: center;
+        
+        color: white;
+        
+    }
+   
+    .dinonya{
+      display: flex;
+      justify-content: flex-end;
+      width: 9rem;
+    }
+
+    .typing-animation {
+      overflow: hidden;
+      animation: typing 1s steps(3, end), berkedip 0,5s ease infinite;
+      border-right: .8px solid white;
+      font-family: monospace;
+      color: white;
+    }
+
+    .yakin{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .typing-animation {
+      overflow: hidden;
+      animation: typing 1s steps(3, end), berkedip 0,5s ease infinite;
+      border-right: .8px solid white;
+      font-family: monospace;
+      color: white;
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  
+  @keyframes berkedip{
+      from{
+          border-color: transparent;
+      }
+      50%{
+          border-color: aqua;
+      }
+      to{
+          border-color: transparent;
+      }
+  }
+
+
 }
 @media (min-width:801px)  {
     body {
       background-color: fuchsia;
     }
-    .button-style{
-      padding-left: 64px;
-      padding-right: 64px;
-      /* padding: 24px; */
-      border-radius: 10px;
-    }
   }
 @media (min-width:1025px)  {
     body {
-      background-color: indigo;
+      background-color: gold;
     }
-  }
-@media (min-width:1281px)  {
-    body {
-      background-color: lightgreen;
-    }
-  }
+}
+
+
 
 
 .ucapan{
@@ -73,10 +175,7 @@ form {
 }
 
 h2{
-    display: flex;
-    padding-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 .background{
@@ -84,18 +183,6 @@ h2{
 
 }
 
-.agus{
-    margin-left: 60px;
-    color: white;
-    
-}
-
-.dino{
-    margin-bottom: 10rem;
-    margin-left: 60rem;
-  position: relative;
-  top: 50px;
-}
 
 .yakin{
     text-align: center;

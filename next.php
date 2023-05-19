@@ -12,17 +12,16 @@
     
     <div class="isian">
 
-        <div class="dino">
-            <img src="dinoan.gif" alt="Animasi GIF">
+
+        <div class="dino-kanan">
+
+            <img class="dinonya" src="dinoan.gif" alt="Animasi GIF">
             
             <div>
-                <label class="agus">halo nama aku Zidan</label>
-
+                <p class="nama-dino">halo nama aku Zidan</p>
+    
             </div>
-
-
-        
-
+        </div>
 
     </div>
     <div class="yakin">
